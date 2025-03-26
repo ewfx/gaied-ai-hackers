@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+openai
+transformers
+pymupdf
+python-docx
+mail-parser
+faiss-cpu
+pydantic
+PyYAML
+tiktoken
+python-multipart

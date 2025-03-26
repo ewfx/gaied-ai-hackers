@@ -1,0 +1,26 @@
+llm:
+  provider: "openai"
+  model: "gpt-4"
+  temperature: 0.3
+  api_key: "your-api-key-here"
+
+classification:
+  request_types:
+    - "Billing Issue"
+    - "Technical Support"
+    - "Account Management"
+  sub_request_types:
+    - "Payment Failure"
+    - "Service Downtime"
+    - "Password Reset"
+
+extraction:
+  fields:
+    Billing Issue:
+      - "Invoice Number"
+      - "Amount Due"
+      - "Due Date"
+    Technical Support:
+      - "Issue Description"
+      - "Device Model"
+      - "Error Code"
